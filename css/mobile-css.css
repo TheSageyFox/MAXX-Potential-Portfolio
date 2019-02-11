@@ -10,11 +10,11 @@ header img{
 	line-height: 1em;
 }
 h1{
-	font-size: 12pt;
+	font-size: .75em;
 	font-weight: bold;
 }
 h2{
-	font-size: 12pt;
+	font-size: .60em;
 	font-weight: 100;
 }
 main{
@@ -33,19 +33,15 @@ main img{
 .trio a{
 	text-decoration: none;
 	font-family: Baskerville;
-	font-size: 12pt;
-	font-style: italic;
-	color: #BB1F25;
-	line-height: .1em;
 }
 .trio img{
-	width: 75%;
+	width: 150px;
 }
 .text{
 	margin: 3% 0;
 	padding-bottom: 2%;
-	border-top: solid 2px #0D4B6E;
-	border-bottom: solid 4px #0D4B6E;
+	border-top: solid 2px orange;
+	border-bottom: solid 4px orange;
 	line-height: 1em;
 }
 footer{
@@ -68,10 +64,10 @@ footer span{
 /*Tablet Sized Devices*/
 @media screen and (min-width: 768px){
 h1{
-	font-size: 28pt;
+	font-size: 18pt;
 }
 h2{
-	font-size: 28pt;
+	font-size: 18pt;
 }
 header img{
 	padding-top: 2%;
@@ -88,8 +84,27 @@ header img{
 	max-height: 150px;
 }
 .trio a{
-	font-size: 24pt;
+	font-size: 20pt;
 	line-height: .1em;
 }
+#boat{
+	height: 125px;
+}
 
+}
+/*Desktop and Larger Devices*/
+@media screen and (min-width: 1024px){
+	h1{
+	font-size: 1em;
+}
+
+#heading h1:hover{
+	color: orange;
+}
+h2{
+	font-size: 28pt;
+}
+.trio a{
+	font-size: 24pt;
+}
 }
