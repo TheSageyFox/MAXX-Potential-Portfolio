@@ -4,7 +4,6 @@ header img{
 	padding-top: 5%;
 }
 #heading{
-	font-family: "Helvetica Neue";
 	float:right;
 	padding-right: 10%;
 	line-height: 1em;
@@ -111,8 +110,16 @@ header img{
 	h1{
 	font-size: 1em;
 }
-
-#heading h1:hover{
+#heading h1{
+	font-size: 1.5em;
+}
+#heading a:hover{
+	background: url('../img/fox-dark.svg') no-repeat;
+	display: inline-block;
+	height:75px;
+	width:150px;
+}
+#heading h1:hover, #heading a:hover{
 	color: orange;
 }
 h2{
