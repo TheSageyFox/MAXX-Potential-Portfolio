@@ -9,14 +9,20 @@ header img{
 	padding-right: 10%;
 	line-height: 1em;
 }
+#heading a{
+	text-decoration: none;
+}
 h1{
+	font-family: 'Domine', serif;
 	font-size: .75em;
 	font-weight: bold;
 }
 h2{
+	font-family: 'Kaushan Script', cursive;
 	font-size: .60em;
 	font-weight: 100;
 }
+
 main{
 	padding: 2%;
 }
@@ -29,10 +35,15 @@ main img{
 }
 .trio{
 	width:100%;
+	border-top: solid 2px orange;
 }
 .trio a{
 	text-decoration: none;
 	font-family: Baskerville;
+	font-size: 1.25em;
+}
+.trio p{
+	font-size:.75em;
 }
 .trio img{
 	width: 150px;
@@ -40,7 +51,6 @@ main img{
 .text{
 	margin: 3% 0;
 	padding-bottom: 2%;
-	border-top: solid 2px orange;
 	border-bottom: solid 4px orange;
 	line-height: 1em;
 }
@@ -50,13 +60,17 @@ footer{
 	padding: 4%;
 	color: #FFFFFF;
 	background-color: #3D3D3D;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 footer p{
 	text-align: center;
 }
 footer span{
 	text-decoration: underline;
+}
+iframe{
+	width: 100%;
+	display: none;
 }
 
 /* Beginning of Media Queries for Responsive Design */
@@ -73,7 +87,7 @@ header img{
 	padding-top: 2%;
 }
 .trio{
-	width: 26%;
+	width: 45%;
 	padding: .5%;
 	display: inline-block;
 	line-height: .75em;
@@ -106,5 +120,8 @@ h2{
 }
 .trio a{
 	font-size: 24pt;
+}
+iframe{
+	display: block;
 }
 }
