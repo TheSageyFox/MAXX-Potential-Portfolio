@@ -11,6 +11,17 @@ header img{
 #heading a{
 	text-decoration: none;
 }
+#code-fox{
+	display: block;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+
+}
+#code-fox a{
+	text-decoration: none;
+	color: #000000;
+}
 h1{
 	font-family: 'Domine', serif;
 	font-size: .75em;
@@ -21,42 +32,53 @@ h2{
 	font-size: .60em;
 	font-weight: 100;
 }
+#portfolio{
+	text-align: center;
+
+}
+#portfolio h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2em;
+	border-bottom: double 3px orange;
+}
+#portfolio img{
+	width: 25%;
+}
 
 main{
 	padding: 2%;
 }
 main img{
 	width: 100%;
-	max-height: 250px;
+	margin: 0 auto;
+	max-height: 350px;
 }
-#portfolio{
-	text-align: center;
+#left-container{
+	width: 100%;
+
 }
-.trio{
+.project{
 	width:100%;
-	border-top: solid 2px orange;
 }
-.trio a{
+.project a{
 	text-decoration: none;
-	font-family: Baskerville;
 	font-size: 1.25em;
 }
-.trio p{
+.project p{
 	font-size:.75em;
 }
-.trio img{
+.project img{
 	width: 150px;
 }
 .text{
 	margin: 3% 0;
 	padding-bottom: 2%;
-	border-bottom: solid 4px orange;
 	line-height: 1em;
 }
 footer{
-	width: 88%;
-	margin: 2%;
-	padding: 4%;
+	width: 90%%;
+	margin: auto;
+	padding: 1% 0;
 	color: #FFFFFF;
 	background-color: #3D3D3D;
 	font-size: 1em;
@@ -77,31 +99,28 @@ iframe{
 /*Tablet Sized Devices*/
 @media screen and (min-width: 768px){
 h1{
-	font-size: 18pt;
+	font-size: 1.2em;
 }
 h2{
-	font-size: 18pt;
+	font-size: 1.2em;
 }
 header img{
 	padding-top: 2%;
 }
-.trio{
-	width: 45%;
+.project{
+	width: 40%;
 	padding: .5%;
+	margin: 0 auto;
 	display: inline-block;
-	line-height: .75em;
 
 }
-.trio img{
+.project img{
 	width: 100%;
 	max-height: 150px;
 }
-.trio a{
-	font-size: 20pt;
-	line-height: .1em;
-}
-#boat{
-	height: 125px;
+.project a{
+	font-size: 1.3em;
+
 }
 
 }
@@ -113,22 +132,20 @@ header img{
 #heading h1{
 	font-size: 1.5em;
 }
-#heading a:hover{
-	background: url('../img/fox-dark.svg') no-repeat;
-	display: inline-block;
-	height:75px;
-	width:150px;
-}
+
 #heading h1:hover, #heading a:hover{
 	color: orange;
 }
 h2{
-	font-size: 28pt;
+	font-size: 2em;
 }
-.trio a{
-	font-size: 24pt;
+.project a{
+	font-size: 2em;
 }
 iframe{
 	display: block;
+	width: 80%;
+	height: 300px;
+	margin: 2% auto;
 }
 }
