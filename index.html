@@ -23,39 +23,44 @@
 		<section id="portfolio">
 			<img id="fox-rule" src="img/fox-hr.png" alt="fox line divider">
 			<h1>Portfolio</h1>
-		<div id="left-container">
-			<div class="project" >
-				<div class="text"id="moonraven-rabbitry">
-					<a href="https://thesageyfox.github.io/moonraven-rabbitry/">MoonRaven Rabbitry</a>
-					<p>A small, responsive website designed for MoonRaven Rabbitry. Built using a mobile-first approach. The most challenging part of this build was understanding what aspects of Bootstrap to use for the Photo Gallery page.</p>
+			<h2>Front-end Development Projects</h2>
+			<div id="project-modal" class="modal">
+				<div class="modal-content">
+					<span class="close-modal" onclick="closeModal()"> &times; </span>
+					<div id="content">
+					
+					</div>
 				</div>
-				<iframe src="https://thesageyfox.github.io/moonraven-rabbitry/"></iframe>
 			</div>
-			<div class="project" id="memory-match">
+		<div id="left-container">
+			<div class="project" id="memory-match" onclick="openModal(urls[1])">
 				<div class="text">
-					<a href="https://thesageyfox.github.io/memory-game/">Memory Match</a>
-					<p>My first project written in JavaScript and jQuery.  The most difficult aspect of this project was learning how to map the array of cards to produce the deck programatically rather than writing coding the deck in HTML.</p>
+					<a href="#">Memory Match</a>
+					<p>My first project written in JavaScript and jQuery.  The most difficult aspect of this project was learning how to map the array of cards to produce the deck programatically rather than writing coding the deck in HTML. This project was created as part of the nanodegree program through Udacity. My favorite aspect of this project was the feeling of complete acomplishment after getting the desk of cards to load and shuffle properly.</p>
 				</div>
-				<iframe src="https://thesageyfox.github.io/memory-game/"></iframe>
+			</div>
+			<div class="project" id="fend-frogger" onclick="openModal(urls[2])">
+				<div class="text">
+					<a href="#">FEND Frogger</a>
+					<p>My second major JavaScript/jQuery project and by far my most difficult. The hardest part of the coding for this project was linked to the positioning of the sprite and removing the ability for the sprite to travel out of the playing area.My favorite aspect of this project was figuring out how to tie the movement of the sprite into the arrow key input on the keyboard.</p>
+				</div>
 			</div>
 		</div>
 		<div id="right-contain">
-			<div class="project" id="fend-frogger">
+			<div class="project" id="moonraven-rabbitry" onclick="openModal(urls[0])">
 				<div class="text">
-					<a href="https://thesageyfox.github.io/fend-frogger/">FEND Frogger</a>
-					<p>My second major JavaScript/jQuery project and by far my most difficult. The hardest part of the coding for this project was linked to the positioning of the sprite and removing the ability for the sprite to travel out of the playing area.</p>
+					<a href="#">MoonRaven Rabbitry</a>
+					<p>A small, responsive website designed for MoonRaven Rabbitry. Built using a mobile-first approach. The most challenging part of this build was understanding what aspects of Bootstrap to use for the Photo Gallery page.
+					My favorite aspect of this project was the fact that I had complete control over the design and code since I was creating the site for my own rabbitry. When I created the site I had to rely on an outside source for the contact page.</p>
 				</div>
-				<iframe src="https://thesageyfox.github.io/fend-frogger/"></iframe>
 			</div>
-			<div class="project" id="st-johns-ucc">
+			<div class="project" id="st-johns-ucc" onclick="openModal(urls[3])">
 				<div class="text">
-					<a href="https://thesageyfox.github.io/st-johns/">St. John's UCC</a>	
-					<p>A mobile landing page design for St. John's UCC located in Richmond, Virginia. A project I challenged myself to create in order to explore a clean, minimalistic design that was easy to use for an elderly congregation when accessed on a mobile device. </p>
+					<a href="#">St. John's UCC</a>	
+					<p>A mobile landing page design for St. John's UCC located in Richmond, Virginia. A project I challenged myself to create in order to explore a clean, minimalistic design that was easy to use for an elderly congregation when accessed on a mobile device. This was one of my favorite projects when it comes to simplistic design, I was really happy with the use of whitespace.</p>
 				</div>
-				<iframe src="https://thesageyfox.github.io/st-johns/"></iframe>
 			</div>
 		</div>
-
 		</section>
 	</main>
 	<footer>
@@ -64,4 +69,5 @@
 
 
 	</body>
+	<script src="js/script.js"></script>
 </html>
