@@ -69,7 +69,13 @@ footer p{
 footer span{
 	text-decoration: underline;
 }
-
+#certificates{
+	width: 50%;
+	display: inline-block;
+}
+/*Media Query for Laptops*/
 @media screen and (min-width: 1024px){
+
+
 
 }

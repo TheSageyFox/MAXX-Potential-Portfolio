@@ -16,7 +16,6 @@ header img{
 	text-align: center;
 	height: 100%;
 	width: 100%;
-
 }
 #code-fox a{
 	text-decoration: none;
@@ -34,15 +33,19 @@ h2{
 }
 #portfolio{
 	text-align: center;
-
 }
 #portfolio h1{
 	font-family: 'Kaushan Script', cursive;
 	font-size: 2em;
-	border-bottom: double 3px orange;
+	border-bottom: double 5px #D35400;
+	width: 80%;
+	margin: auto;
 }
 #portfolio img{
 	width: 25%;
+}
+#portfolio a{
+	color: #D35400;
 }
 
 main{
@@ -74,24 +77,6 @@ main img{
 	margin: 3% 0;
 	padding-bottom: 2%;
 	line-height: 1em;
-}
-
-.modal{
-	width: 100%;
-	margin: auto;
-	display: none;
-	/*position: fixed;*/
-	z-index: 1;
-}
-.modal-content{
-	/*overflow: hidden;*/
-}
-.close-modal{
-	color: #FF0000;
-	float: right;
-	padding-right: 2%;
-	font-size: 2.5em;
-	font-weight: bold;
 }
 footer{
 	width: 90%%;
@@ -138,7 +123,6 @@ header img{
 }
 .project a{
 	font-size: 1.3em;
-
 }
 
 }
@@ -150,9 +134,11 @@ header img{
 #heading h1{
 	font-size: 1.5em;
 }
-
 #heading h1:hover, #heading a:hover{
-	color: orange;
+	color: #D35400;
+}
+#code-fox{
+	padding-top: 2%;
 }
 h2{
 	font-size: 2em;
@@ -165,5 +151,19 @@ iframe{
 	width: 80%;
 	height: 300px;
 	margin: 2% auto;
+}
+#certificates{
+	width: 50%;
+}
+#certificates ul{
+	list-style-type: none;
+	text-align: left;
+}
+#certificates a{
+	color: #000000;
+	text-decoration: none;
+}
+#certificates a:hover{
+	color: #D35400;
 }
 }
