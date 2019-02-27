@@ -1,11 +1,12 @@
 header img{
 	width: 15%;
-	padding-left: 10%;
-	padding-top: 5%;
+	padding-left: 5%;
+	display:inline-block;
 }
 #heading{
 	float:right;
 	padding-right: 10%;
+	padding-top: 1%;
 	line-height: 1em;
 }
 #heading a{
@@ -47,13 +48,14 @@ h2{
 #portfolio a{
 	color: #D35400;
 }
-
 main{
 	padding: 2%;
 }
-main img{
-	width: 100%;
-	margin: 0 auto;
+#hero-img{
+	width: 92%;
+	margin: 2% auto;
+	padding: 2% 2%;
+	border: double 4px #D35400;
 	max-height: 350px;
 }
 #left-container{
@@ -78,6 +80,24 @@ main img{
 	padding-bottom: 2%;
 	line-height: 1em;
 }
+#certificates{
+	width: 100%;
+	font-size: .65em;
+}
+#certificates h2{
+	font-family: 'Domine', serif;
+	text-decoration: underline;
+	font-size: 1.75em;
+	color: #D35400;
+}
+#certificates ul{
+	list-style-type: none;
+	text-align: left;
+}
+#certificates a{
+	color: #000000;
+	text-decoration: none;
+}
 footer{
 	width: 90%%;
 	margin: auto;
@@ -92,9 +112,8 @@ footer p{
 footer span{
 	text-decoration: underline;
 }
-iframe{
-	width: 100%;
-	display: none;
+.mobie-hide{
+	display:hidden;
 }
 
 /* Beginning of Media Queries for Responsive Design */
@@ -115,7 +134,6 @@ header img{
 	padding: .5%;
 	margin: 0 auto;
 	display: inline-block;
-
 }
 .project img{
 	width: 100%;
@@ -124,12 +142,22 @@ header img{
 .project a{
 	font-size: 1.3em;
 }
-
+span .mobile-hide{
+	display: inline-block;
+}
 }
 /*Desktop and Larger Devices*/
 @media screen and (min-width: 1024px){
 	h1{
 	font-size: 1em;
+}
+header img{
+	width: 15%;
+	padding-left: 5%;
+	display:inline-block;
+}
+#heading{
+	padding-top: 5%;
 }
 #heading h1{
 	font-size: 1.5em;
@@ -145,12 +173,6 @@ h2{
 }
 .project a{
 	font-size: 2em;
-}
-iframe{
-	display: block;
-	width: 80%;
-	height: 300px;
-	margin: 2% auto;
 }
 #certificates{
 	width: 50%;
