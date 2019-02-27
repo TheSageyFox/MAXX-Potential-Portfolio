@@ -112,8 +112,14 @@ footer p{
 footer span{
 	text-decoration: underline;
 }
-.mobie-hide{
-	display:hidden;
+#right-cert, #left-cert{
+	display: inline-block;
+}
+#left-cert{
+	width: 100%;
+}
+#right-cert{
+	display:none;
 }
 
 /* Beginning of Media Queries for Responsive Design */
@@ -142,8 +148,9 @@ header img{
 .project a{
 	font-size: 1.3em;
 }
-span .mobile-hide{
+#right-cert, #left-cert{
 	display: inline-block;
+	width: 48%;
 }
 }
 /*Desktop and Larger Devices*/
