@@ -1,67 +1,119 @@
-header img{
-	width: 15%;
-	padding-left: 10%;
+#profile-pic{
+	width: 50%;
+	margin: 5% 25%;
+	border-radius: 30%;
+	border: solid 3px #D35400;
 }
-
+header{	
+}
 #heading{
-	font-family: "Helvetica Neue";
-	float:right;
-	padding-right: 10%;
-	line-height: 1em;
+	text-align: center;
+	line-height: 1.5em;
+}
+#heading a{
+	text-decoration: none;
+}
+#code-fox{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+#code-fox a{
+	text-decoration: none;
+	color: #000000;
+}
+#code-fox img{
+	width: 15%;
+	display:inline-block;
+}
+#fox-rule{
+	width: 100%;
 }
 h1{
-	font-size: 28pt;
+	font-family: 'Domine', serif;
+	font-size: .75em;
 	font-weight: bold;
 }
 h2{
-	font-size: 28pt;
+	font-family: 'Kaushan Script', cursive;
+	font-size: .65em;
 	font-weight: 100;
 }
-
-main{
-	padding: 2%;
+#front-end-projects h2{
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration: underline;
 }
-
-main img{
-	width: 100%;
-	max-height: 250px;
-}
-
 #portfolio{
 	text-align: center;
 }
-
-.trio{
-	width: 26%;
-	padding: .5%;
-	display: inline-block;
-	line-height: .75em;
-
+#portfolio h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2em;
+	border-bottom: double 5px #D35400;
+	width: 80%;
+	margin: auto;
 }
-.trio a{
+#portfolio img{
+	width: 25%;
+}
+#portfolio a{
+	color: #D35400;
+}
+.introduction{
+	font-size: .65em;
+	line-height: 1em;
+	text-align: left;
+}
+main{
+	padding: 2%;
+}
+#left-container{
+	width: 100%;
+}
+.project{
+	width:100%;
+}
+.project a{
 	text-decoration: none;
-	font-family: Baskerville;
-	font-size: 24pt;
-	font-style: italic;
-	color: #BB1F25;
-	line-height: .1em;
+	font-size: 1.25em;
 }
-.trio img{
-	max-height: 150px;
+.project p{
+	font-size:.75em;
+}
+.project img{
+	width: 150px;
 }
 .text{
 	margin: 3% 0;
 	padding-bottom: 2%;
-	border-top: solid 2px #0D4B6E;
-	border-bottom: solid 4px #0D4B6E;
 	line-height: 1em;
 }
+#certificates{
+	width: 100%;
+	font-size: .65em;
+}
+#certificates h2{
+	font-family: 'Domine', serif;
+	text-decoration: underline;
+	font-size: 1.75em;
+	color: #D35400;
+}
+#certificates ul{
+	list-style-type: none;
+	text-align: left;
+}
+#certificates a{
+	color: #000000;
+	text-decoration: none;
+}
 footer{
-	width: 88%;
-	margin: 2%;
-	padding: 4%;
+	width: 90%%;
+	margin: auto;
+	padding: 1% 0;
 	color: #FFFFFF;
 	background-color: #3D3D3D;
+	font-size: 1em;
 }
 footer p{
 	text-align: center;
@@ -69,13 +121,88 @@ footer p{
 footer span{
 	text-decoration: underline;
 }
-#certificates{
-	width: 50%;
+#right-cert, #left-cert{
 	display: inline-block;
 }
-/*Media Query for Laptops*/
+#left-cert{
+	width: 100%;
+}
+#right-cert{
+	display:none;
+}
+
+/* Beginning of Media Queries for Responsive Design */
+
+/*Tablet Sized Devices*/
+@media screen and (min-width: 768px){
+h1{
+	font-size: 1.2em;
+}
+h2{
+	font-size: 1.2em;
+}
+header img{
+	padding-top: 2%;
+}
+.project{
+	width: 40%;
+	padding: .5%;
+	margin: 0 auto;
+	display: inline-block;
+}
+.project img{
+	width: 100%;
+	max-height: 150px;
+}
+.project a{
+	font-size: 1.3em;
+}
+#right-cert, #left-cert{
+	display: inline-block;
+	width: 48%;
+}
+}
+
+/*Desktop and Larger Devices*/
 @media screen and (min-width: 1024px){
-
-
-
+h1{
+	font-size: 1em;
+}
+header img{
+	width: 15%;
+	padding-left: 5%;
+	display:inline-block;
+}
+#heading{
+	padding-top: 5%;
+}
+#heading h1{
+	font-size: 1.5em;
+}
+#heading h1:hover, #heading a:hover{
+	color: #D35400;
+}
+#code-fox{
+	padding-top: 2%;
+}
+h2{
+	font-size: 2em;
+}
+.project a{
+	font-size: 2em;
+}
+#certificates{
+	width: 50%;
+}
+#certificates ul{
+	list-style-type: none;
+	text-align: left;
+}
+#certificates a{
+	color: #000000;
+	text-decoration: none;
+}
+#certificates a:hover{
+	color: #D35400;
+}
 }
