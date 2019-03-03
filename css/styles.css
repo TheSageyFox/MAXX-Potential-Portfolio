@@ -184,24 +184,6 @@ header{
 #left-container, #right-container{
 	display: inline-block;
 }
-}
-
-/*Desktop and Larger Devices*/
-@media screen and (min-width: 1024px){
-header{
-	width: 75%;
-	margin: 0 auto;
-}
-#profile-pic{
-	width: 20%;
-}
-#heading h1{
-	font-size: 2.25em;
-}
-.info{
-	width: 65%;
-	margin: 0 auto;
-}
 #certificates{
 	display:none;
 }
@@ -223,5 +205,26 @@ header{
 #certificates-laptop a{
 	color: #000000;
 	text-decoration: none;
+}
+#left-cert{
+	width: 100%;
+}
+}
+
+/*Desktop and Larger Devices*/
+@media screen and (min-width: 1024px){
+header{
+	width: 75%;
+	margin: 0 auto;
+}
+#profile-pic{
+	width: 20%;
+}
+#heading h1{
+	font-size: 2.25em;
+}
+.info{
+	width: 65%;
+	margin: 0 auto;
 }
 }
