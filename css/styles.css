@@ -1,3 +1,8 @@
+*{
+	margin: 1%;
+	padding: 0;
+	box-sizing:border-box;
+}
 #profile-pic{
 	width: 50%;
 	margin: 5% 25%;
@@ -31,39 +36,32 @@ header{
 }
 h1{
 	font-family: 'Domine', serif;
-	font-size: .75em;
+	font-size: 1.4em;
 	font-weight: bold;
 }
 h2{
 	font-family: 'Kaushan Script', cursive;
-	font-size: .65em;
+	font-size: 1.2em;
 	font-weight: 100;
+	text-align: center;
 }
 #front-end-projects h2{
-	font-size: 1.2em;
-	text-align: center;
-	text-decoration: underline;
+	text-decoration: underline;	
 }
 #portfolio{
 	text-align: center;
 }
 #portfolio h1{
 	font-family: 'Kaushan Script', cursive;
-	font-size: 2em;
 	border-bottom: double 5px #D35400;
 	width: 80%;
-	margin: auto;
+	margin: 3% auto;
 }
 #portfolio img{
 	width: 25%;
 }
 #portfolio a{
 	color: #D35400;
-}
-.introduction{
-	font-size: .65em;
-	line-height: 1em;
-	text-align: left;
 }
 main{
 	padding: 2%;
@@ -84,10 +82,15 @@ main{
 .project img{
 	width: 150px;
 }
-.text{
-	margin: 3% 0;
-	padding-bottom: 2%;
+.info{
+	margin: 1%;
+	padding: 2S%;
+	font-size: .75em;
 	line-height: 1em;
+	text-align: left;
+}
+#certificates-laptop{
+	display:none;
 }
 #certificates{
 	width: 100%;
@@ -106,6 +109,10 @@ main{
 #certificates a{
 	color: #000000;
 	text-decoration: none;
+}
+#social-media img{
+	width: 50px;
+	height: 50px;
 }
 footer{
 	width: 90%%;
@@ -135,14 +142,27 @@ footer span{
 
 /*Tablet Sized Devices*/
 @media screen and (min-width: 768px){
-h1{
-	font-size: 1.2em;
+header{
+	width: 90%;
+	margin: 0 5%;
 }
-h2{
-	font-size: 1.2em;
+#profile-pic{
+	width: 20%;
+	height: 20%;
+	display: inline-block;
+	margin: 0 auto;
 }
-header img{
-	padding-top: 2%;
+#code-fox h2{
+	text-align: right;
+}
+#heading{
+	margin-top: 6%;
+	text-align: right;
+	display: inline-block;
+	width: 75%;
+}
+#fox-rule{
+	display:none;
 }
 .project{
 	width: 40%;
@@ -159,50 +179,49 @@ header img{
 }
 #right-cert, #left-cert{
 	display: inline-block;
-	width: 48%;
+	width: 47%;
+}
+#left-container, #right-container{
+	display: inline-block;
 }
 }
 
 /*Desktop and Larger Devices*/
 @media screen and (min-width: 1024px){
-h1{
-	font-size: 1em;
+header{
+	width: 75%;
+	margin: 0 auto;
 }
-header img{
-	width: 15%;
-	padding-left: 5%;
-	display:inline-block;
-}
-#heading{
-	padding-top: 5%;
+#profile-pic{
+	width: 20%;
 }
 #heading h1{
-	font-size: 1.5em;
+	font-size: 2.25em;
 }
-#heading h1:hover, #heading a:hover{
-	color: #D35400;
-}
-#code-fox{
-	padding-top: 2%;
-}
-h2{
-	font-size: 2em;
-}
-.project a{
-	font-size: 2em;
+.info{
+	width: 65%;
+	margin: 0 auto;
 }
 #certificates{
-	width: 50%;
+	display:none;
 }
-#certificates ul{
+#certificates-laptop{
+	width: 100%;
+	display: inline-block;
+	font-size: .75em;
+}
+#certificates-laptop h2{
+	font-family: 'Domine', serif;
+	text-decoration: underline;
+	font-size: 1.75em;
+	color: #D35400;
+}
+#certificates-laptop ul{
 	list-style-type: none;
 	text-align: left;
 }
-#certificates a{
+#certificates-laptop a{
 	color: #000000;
 	text-decoration: none;
-}
-#certificates a:hover{
-	color: #D35400;
 }
 }
