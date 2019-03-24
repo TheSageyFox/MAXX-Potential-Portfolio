@@ -19,6 +19,9 @@
 #heading a{
 	text-decoration: none;
 }
+#heading p{
+	padding-top: .75%;
+}
 #code-fox{
 	display: block;
 	height: 100%;
@@ -84,7 +87,7 @@ main{
 	width: 150px;
 }
 .info{
-	margin: 1%;
+	margin: 2%;
 	padding: 2S%;
 	font-size: .75em;
 	line-height: 1em;
@@ -264,10 +267,18 @@ footer{
 }
 
 /*Desktop and Larger Devices*/
+
 @media screen and (min-width: 1024px){
-header{
+
+body{
 	width: 75%;
 	margin: 0 auto;
+}
+.navbar, footer{
+	width: 75%;
+	margin: 0 auto;
+}
+header{
 }
 #profile-pic{
 	width: 20%;
@@ -276,7 +287,16 @@ header{
 	font-size: 2.25em;
 }
 .info{
-	width: 65%;
-	margin: 0 auto;
+
+	font-size: 1em;
+	margin: 2% auto;
 }
+#front-end-projects h2{
+	font-size: 1.5em;
+}
+#front-end-projects .info{
+	font-size: .80em;
+	line-height: 1.2em;
+}
+
 }
