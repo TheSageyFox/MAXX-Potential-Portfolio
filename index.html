@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<meta charset=“utf-8”>
-		<meta name="viewport" content="width=device-width", initial-scale=1">
-		<title>Fox's Project Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fox's Portfolio</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Domine|Kaushan+Script" rel="stylesheet">
 	</head>
@@ -12,20 +12,15 @@
 		<nav class="navbar">
 			<ul>
 				<li><a href="#home">Home</a></li>
-				<li><a href="#portfolio">Portfolio</a>
-					<ul class="dropdown">
-						<li><a href="#memory-match">Memory Match</a></li>
-						<li><a href="#fend-frogger">FEND Frogger</a></li>
-						<li><a href="#st-johns-ucc">St. John's UCC</a></li>
-					</ul>
-				</li>
+				<li><a href="#portfolio">Profile</a></li>
+				<li><a href="#projects">Projects</a></li>
 				<li><a href="#certificates-laptop">Certificates</a></li>
 				<li><a href="#social-media">Social Media</a></li>
 			</ul>
 		</nav>
 	<header>
 		<div id="home">
-			<img src="img/profile-img.jpeg" id="profile-pic" alt="Tomas Profile">
+			<img src="img/profile-img.jpeg" id="profile-pic" alt="Fox's Profile imgage">
 			<section id="heading">
 				<h1>Guten Tag! I'm Fox</h1>
 				<p>A passionate Front-End Developer and proud Tech Geek. Please feel free to check out my past and present projects.</p>
@@ -39,27 +34,34 @@
 	</header>
 	<main>
 		<section id="portfolio">
-			<h1>Portfolio</h1>
+			<h1>Personal Profile</h1>
 			<p class="info"> 
-				Hi, I'm Fox, the creator of The Code Fox and thank you for visiting my portfolio page. I hope that the projects you find within this page give you an idea of the sort of code I am capable of writing. Designing and coding websites is one of my passions, I enjoy creating something beautiful, functional, and unique from mere words. 
+				Hi, I'm Fox, the creator of The Code Fox and thank you for visiting my profile page. Within the confines of this site you'll find some of the projects that I've worked on while learning front-end development. I hope that you find within this site idea of the sort of code I am capable of writing. Designing and coding websites is one of my passions, I enjoy creating something beautiful, functional, and unique from mere words. 
 			</p>
 			<p class="info">
-				I love to work with small businesses and non-profits to allow them to have a professional and easy-to-use home on the web for their potential clients, customers, or anything inbetween. 
+				I love to work with small businesses and non-profits to allow them to have a professional and easy-to-use home on the web for their potential clients, customers, or anything inbetween. Not only can I code websites from scratch, but I also have the ability to write SEO targeted content and have done so in the past. 
 			</p>
 			<p class="info">
-				If you're interested in my skills to create a website of your very own, please feel free to reach out. Once again, thanks for checking out my profile.
+				I've been working on and off with web design since I was in high school, before it became common practice to seperate content and design. I've been writing not only website content for friends, but also engaging in creative writing for even longer than that. 
 			</p>
-
+			<p class="info">
+				I realize that I don't seem to have a vast background or fancy college degree to me name, but what I do have is a dedication to excellence, desire to succeed, and appetence for knowledge. I strive to work to the very best of my capability and beyond, because of my disabilities. I endeavor to overcome my limitations and push myself to become someone that my friends and family can be proud of.
+			</p>
+			<p class="info">	
+				If you're interested in my skills to create a website of your very own, or would like to chat with me about an employment opportunity please feel free to reach out. I would like to be very transparent in the fact that I cannot speak over the phone, and all of my contact is through email, text or face-to-face meetings. Once again, thanks for checking out my profile.
+			</p>
+		</section>
+		<section id="projects">
 			<div id="front-end-projects">
-				<h2>Front-end Development Projects</h2>
+				<h1>Front-end Development Projects</h1>
 				<div id="left-container">
-					<div class="project" id="memory-match" onclick="openModal(urls[1])">
+					<div class="project" onclick="openModal(urls[1])">
 						<div class="text">
 							<a href="#">Memory Match</a>
 							<p class="info">My first project written in JavaScript and jQuery.  The most difficult aspect of this project was learning how to map the array of cards to produce the deck programatically rather than writing coding the deck in HTML. This project was created as part of the nanodegree program through Udacity. My favorite aspect of this project was the feeling of complete acomplishment after getting the desk of cards to load and shuffle properly.</p>
 						</div>
 					</div>
-					<div class="project" id="fend-frogger" onclick="openModal(urls[2])">
+					<div class="project" onclick="openModal(urls[2])">
 						<div class="text">
 							<a href="#">FEND Frogger</a>
 							<p class="info">My second major JavaScript/jQuery project and by far my most difficult. The hardest part of the coding for this project was linked to the positioning of the sprite and removing the ability for the sprite to travel out of the playing area.My favorite aspect of this project was figuring out how to tie the movement of the sprite into the arrow key input on the keyboard.</p>
@@ -67,13 +69,13 @@
 					</div>
 				</div> <!-- left-container ending div -->
 				<div id="right-container">
-					<div class="project" id="moonraven-rabbitry" onclick="openModal(urls[0])">
+					<div class="project" onclick="openModal(urls[0])">
 						<div class="text">
 							<a href="#">MoonRaven Rabbitry</a>
 							<p class="info">A small, responsive website designed for MoonRaven Rabbitry. Built using a mobile-first approach. The most challenging part of this build was understanding what aspects of Bootstrap to use for the Photo Gallery page. My favorite aspect of this project was the fact that I had complete control over the design and code since I was creating the site for my own rabbitry. When I created the site I had to rely on an outside source for the contact page.</p>
 						</div>
 					</div>
-					<div class="project" id="st-johns-ucc" onclick="openModal(urls[3])">
+					<div class="project" onclick="openModal(urls[3])">
 						<div class="text">
 							<a href="#">St. John's UCC</a>	
 							<p class="info">A mobile landing page design for St. John's UCC located in Richmond, Virginia. A project I challenged myself to create in order to explore a clean, minimalistic design that was easy to use for an elderly congregation when accessed on a mobile device. This was one of my favorite projects when it comes to simplistic design, I was really happy with the use of whitespace.</p>
@@ -81,8 +83,10 @@
 					</div>
 				</div> <!-- right-container ending div -->
 			</div> <!-- front-end-projects ending div -->
+		</section>
+		<section id="certs">
 			<div id="certificates-laptop">
-				<h2>Certificates</h2>
+				<h1>Certificates</h1>
 				<div id="left-cert">
 					<ul>
 						<li><a href="https://www.freecodecamp.org/certification/thesageyfox/responsive-web-design" target="_blank">Responsive Web Design Certification - FreeCodeCamp.org - 2019</a></li>
@@ -95,7 +99,7 @@
 				</div>
 			</div> <!-- certificates ending div -->
 			<div id="certificates">
-				<h2>Certificates</h2>
+				<h1>Certificates</h1>
 				<div id="left-cert">
 					<ul>
 						<li><a href="https://www.freecodecamp.org/certification/thesageyfox/responsive-web-design" target="_blank">Responsive Web Design Certification</a></li>
@@ -114,14 +118,16 @@
 						<li>University of Michigan via Coursera - 2017</li>
 						<li>University of Michigan via Coursera - 2017</li>
 						<li>University of Michigan via Coursera - 2017</li>
+					</ul>
 				</div> <!--right cert ending div -->
 			</div> <!-- certificates ending div -->
-			<div id="social-media">
+		</section>
+		<section id="social-media">
+			<h1>Social Media</h1>
 				<p> Connect with me on Social Media</p>
 				<a href="https://github.com/TheSageyFox" target="_blank"><img src="img/GitHub-120px.png"></a>
 				<a href="https://codepen.io/TheSageyFox" target="_blank"><img src="img/pencodeio.png"></a>
 				<a href="https://twitter.com/thesageyfox" target="_blank"><img src="img/twitter.png"></a>
-			</div> <!--social-media div ending -->
 		</section> <!-- portfolio ending section -->
 	</main>
 	<footer>

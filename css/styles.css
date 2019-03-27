@@ -52,10 +52,10 @@ h2{
 #front-end-projects h2{
 	text-decoration: underline;	
 }
-#portfolio{
+#portfolio, #projects, #certs, #social-media{
 	text-align: center;
 }
-#portfolio h1{
+#portfolio h1, #projects h1, #certs h1, #social-media h1{
 	font-family: 'Kaushan Script', cursive;
 	border-bottom: double 5px #D35400;
 	width: 80%;
@@ -64,7 +64,7 @@ h2{
 #portfolio img{
 	width: 25%;
 }
-#portfolio a{
+#portfolio a, #projects a, #certs a, #social-media a{
 	color: #D35400;
 }
 main{
@@ -191,7 +191,7 @@ header{
 	padding-top: 75px;
 	height: 100vh;
 }
-#portfolio{
+#portfolio, #projects{
 	width: 100%;
 	height: 100vh;
 	padding-top: 50px;
@@ -287,10 +287,11 @@ header{
 	font-size: 2.25em;
 }
 .info{
-
+	width: 75%;
 	font-size: 1em;
 	margin: 2% auto;
 }
+
 #front-end-projects h2{
 	font-size: 1.5em;
 }
