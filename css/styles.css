@@ -56,7 +56,7 @@ h2{
 #portfolio, #projects, #certs, #social-media, #writing{
 	text-align: center;
 }
-#portfolio h1, #projects h1, #certs h1, #social-media h1, #writing h1{
+#portfolio h1, #projects h1, #certs h1, #social-media h1, #writing h1, #em-intro h1{
 	font-family: 'Kaushan Script', cursive;
 	border-bottom: double 5px #D35400;
 	width: 80%;
